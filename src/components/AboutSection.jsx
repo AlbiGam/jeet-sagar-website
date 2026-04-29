@@ -22,7 +22,7 @@ export default function AboutSection() {
         </div>
 
         <aside className="about-card" aria-label="Driver profile summary">
-          <img src={`${import.meta.env.BASE_URL}main_page.jpeg`} alt="Jeet Sagar karting" className="about-card-image" />
+          <img src={`${import.meta.env.BASE_URL}about_me.PNG`} alt="Jeet Sagar karting" className="about-card-image" />
           <div className="about-card-body">
             <h3 className="about-card-name">JEET SAGAR</h3>
             <p className="about-card-meta">{a.meta}</p>
