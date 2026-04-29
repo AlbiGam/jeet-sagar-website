@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="hero-container">
         <div className="hero-image">
           <div className="image-placeholder">
-            <img src="/main_page.jpeg" alt="Jeet Sagar - Karting Driver" />
+            <img src={`${import.meta.env.BASE_URL}main_page.jpeg`} alt="Jeet Sagar - Karting Driver" />
           </div>
         </div>
 

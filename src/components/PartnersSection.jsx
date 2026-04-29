@@ -17,7 +17,7 @@ export default function PartnersSection() {
         <div className="partners-grid">
           <article className="partner-card">
             <div className="partner-logo-wrap">
-              <img src="/technical_partner.png" alt="AiMotor logo" className="partner-logo" />
+              <img src={`${import.meta.env.BASE_URL}technical_partner.png`} alt="AiMotor logo" className="partner-logo" />
             </div>
             <div className="partner-body">
               <h3 className="partner-name">{p.aimotor.name}</h3>
@@ -28,7 +28,7 @@ export default function PartnersSection() {
 
           <article className="partner-card">
             <div className="partner-logo-wrap">
-              <img src="/main_sponor.jpeg" alt="Al Majarah Jewellers logo" className="partner-logo" />
+              <img src={`${import.meta.env.BASE_URL}main_sponor.jpeg`} alt="Al Majarah Jewellers logo" className="partner-logo" />
             </div>
             <div className="partner-body">
               <h3 className="partner-name">{p.almajarah.name}</h3>

@@ -8,7 +8,7 @@ export default function Navigation() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src="/logo.jpeg" alt="Jeet Sagar Logo" className="logo-image" />
+          <img src={`${import.meta.env.BASE_URL}logo.jpeg`} alt="Jeet Sagar Logo" className="logo-image" />
         </div>
 
         <div className="navbar-menu">
