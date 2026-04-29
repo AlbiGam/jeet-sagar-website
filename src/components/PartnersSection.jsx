@@ -27,8 +27,8 @@ export default function PartnersSection() {
           </article>
 
           <article className="partner-card">
-            <div className="partner-logo-wrap">
-              <img src={`${import.meta.env.BASE_URL}main_sponor.jpeg`} alt="Al Majarah Jewellers logo" className="partner-logo" />
+            <div className="partner-logo-wrap partner-logo-wrap--sponsor">
+              <img src={`${import.meta.env.BASE_URL}main_sponor.jpeg`} alt="Al Majarah Jewellers logo" className="partner-logo partner-logo--sponsor" />
             </div>
             <div className="partner-body">
               <h3 className="partner-name">{p.almajarah.name}</h3>
